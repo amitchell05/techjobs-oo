@@ -54,11 +54,11 @@ public class JobController {
 //        jobForm.getLocationId();
 //        jobForm.getCoreCompetencyId();
 //        jobForm.getPositionTypeId();
+//
+//        jobData.add(newJob); OR
+//        Job newJob = jobData.add(newJob);
 
-        //jobData.add(newJob); OR
-        //Job newJob = jobData.add(newJob);
-
-        return "redirect:" + "job-detail";
+        return "";
 
     }
 }
